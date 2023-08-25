@@ -1,4 +1,6 @@
-# bf-interpreter
+bf-interpreter
+==============
+
 Interpreter for the brainf*ck esoteric programming language
 
 to run:
