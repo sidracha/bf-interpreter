@@ -110,22 +110,3 @@ void interpret (char* code, size_t len) {
 }
 
 
-int main (int argc, char* argv[]) {
-	
-	fs::path path = argv[1];
-	
-	//fs::path path = "prime_factorize.bf";
-	
-	size_t file_size = fs::file_size(path);
-	char* code = new char[file_size];
-
-	std::ifstream file(path);
-	
-	file.read(code, file_size);
-
-	interpret(code, file_size);
-	std::cout << std::endl;
-	return 0;
-
-}
-
