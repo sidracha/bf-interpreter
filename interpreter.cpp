@@ -39,7 +39,7 @@ void interpret (char* code, size_t len) {
 	//now run through the code and interpret
 	
 	
-	uint8_t tape[10000] = {};	
+	uint8_t tape[10000] = {0};	
 
 	int code_ptr = 0;
 	int tape_ptr = 0;
